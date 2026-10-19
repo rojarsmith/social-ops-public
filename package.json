@@ -1,0 +1,22 @@
+{
+  "name": "social-ops-public",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Notes on automating the social apps I use. Static Next.js site deployed to GitHub Pages and Vercel.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "remark": "^15",
+    "remark-gfm": "^4",
+    "remark-html": "^16"
+  }
+}
